@@ -6,6 +6,10 @@ router.get('/', function(req, res) {
   res.redirect('/products');
 });
 
+router.get('/about', function(req, res) {
+  res.render('shared/about');
+});
+
 router.get('/401', function(req, res) {
   res.status(401).render('shared/401');
 });
