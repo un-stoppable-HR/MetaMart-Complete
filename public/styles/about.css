@@ -1,0 +1,18 @@
+#sub-heading {
+  color: var(--color-primary-400);
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 48rem) {
+  #contact {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
